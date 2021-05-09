@@ -4,7 +4,7 @@ Clone the repository
 
 cd to the project directory  
 ```
-cd e2e-cypress
+cd cypress_automation_test_demo
 ```
 
 Initialize npm  
