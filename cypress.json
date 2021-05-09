@@ -1,0 +1,6 @@
+{
+  "baseUrl": "http://www.piassa.ca/test",
+  "ignoreTestFiles": "**/examples/*",
+  "viewportWidth": 1200,
+  "viewportHeight": 1024
+}

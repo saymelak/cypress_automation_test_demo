@@ -1,0 +1,14 @@
+{
+  "firstName": "Robert",
+  "lastName": "Smith",
+  "streetAddress1": "666 Fort Street",
+  "streetAddress2": "Unit 505",
+  "city": "Victoria",
+  "state": "BC",
+  "zipCode": "V9V 3W6",
+  "country": "Canada",
+  "phone": "(250) 721-9087",
+  "email": "robert.smith@email.com",
+  "comment": "Comments...",
+  "title": "Home"
+}

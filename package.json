@@ -1,0 +1,29 @@
+{
+  "name": "piassa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all-tests": "npx cypress run",
+    "all-tests-headed": "npx cypress run --headed",
+    "all-tests-chrome": "npx cypress run --browser chrome",
+    "all-tests-dashboard": "npx cypress run --record --key <record key>",
+    "all-tests-piassa": "npx cypress run --spec cypress/integration/piassa/*",
+    "all-tests-piassa-headed": "npx cypress run --headed --spec cypress/integration/piassa/*",
+    "tests-piassa0": "npx cypress run --spec cypress/integration/piassa/piassa0*",
+    "tests-piassa0-headed": "npx cypress run --headed --spec cypress/integration/piassa/piassa0*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cypress": "^7.2.0",
+    "@bahmutov/cy-api": "1.5.0",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "cypress-select-tests": "^1.5.8",
+    "cypress-xpath": "^1.6.0"
+  }
+}
